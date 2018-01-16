@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//I WORRY SO MUCH
-//But it is fine it happens all the time
+public class ThirdScript : MonoBehaviour {
 
-public class FirstScript : MonoBehaviour {
-
+//So I am pretty sure he wants us to edit these 3 different things
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	//Hopefully im not doing something wrong
 	// Update is called once per frame
 	void Update () {
 		
 	}
+}
+
+
+{
+//woot woot
+//I made a comment
+//and brackets
 }

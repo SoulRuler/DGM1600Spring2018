@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//I WORRY SO MUCH
-//But it is fine it happens all the time
+//Class is an object Classification
+//You must have open and closed {} per object
+public class SecondScript : MonoBehaviour {
 
-public class FirstScript : MonoBehaviour {
-
+//void is an object that is void or empty or null
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	//Hopefully im not doing something wrong
 	// Update is called once per frame
 	void Update () {
 		
