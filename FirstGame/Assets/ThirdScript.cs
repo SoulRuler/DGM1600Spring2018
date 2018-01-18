@@ -16,9 +16,6 @@ public class ThirdScript : MonoBehaviour {
 	}
 }
 
-
-{
 //woot woot
 //I made a comment
-//and brackets
-}
+
