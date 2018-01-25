@@ -1,24 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Animal : MonoBehaviour {
 
-	// Use this for initialization
-	// This declhairs what start will do
-	void Start () {
-		print("My animal is eating.");
-		print("Now my animal is sleeping.");
-		print("Hahaha now he is dead becuase he fell off of a cliff");
-	}
+	public string Name;
+	public int foodcount;
+
+	
 
 	void OnMouseDown()
 	{
-		print("I'm dead");
+		print(Name + " is going to make sure that the world burns");
+		print("foodcount = " + foodcount);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+
+
 }
