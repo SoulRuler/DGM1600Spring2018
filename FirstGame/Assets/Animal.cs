@@ -5,17 +5,28 @@ using UnityEngine.UI;
 
 public class Animal : MonoBehaviour {
 
-	public string Name;
-	public int foodcount;
 
-	
+public bool Donut = false;
 
-	void OnMouseDown()
-	{
-		print(Name + " is going to make sure that the world burns");
-		print("foodcount = " + foodcount);
-	}
+public bool Key = false;
+void OnMouseDown()
+{
+	if(Key == true){
 
+print("The door has opened");
+
+}
+
+{
+	if(Donut == true){
+
+print("You just got 4 health");
+
+}
+
+}
+
+}
 
 
 }

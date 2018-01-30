@@ -186,7 +186,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 10.663, y: 707.761, z: 957.812}
 --- !u!114 &92776248
 MonoBehaviour:
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Welboy
-  foodcount: 111
+  foodcount: 8
 --- !u!23 &167644456
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -295,83 +295,8 @@ Transform:
   m_LocalScale: {x: 1.1486312, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &420148007 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-  m_PrefabInternal: {fileID: 651357851}
---- !u!114 &420148008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 420148007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e13c6343f80ba469dbe7a756a3794d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Cow Bob
-  foodcount: 760
---- !u!1001 &651357851
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.4098
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.0364
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.6588
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.9736971
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.22784662
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 206.34099
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.8961966
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.8961964
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.8961964
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
-  m_IsPrefabParent: 0
 --- !u!1 &856431514
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e13c6343f80ba469dbe7a756a3794d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Arbold
+  Name: Hillary
   foodcount: 87900000
 --- !u!23 &856431516
 MeshRenderer:
@@ -466,7 +391,7 @@ Transform:
   m_LocalScale: {x: 1.1486312, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &909572741
 GameObject:
