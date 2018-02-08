@@ -5,8 +5,14 @@ using UnityEngine;
 [CreateAssetMenu]
 
 public class PowerUp : ScriptableObject {
-	
-public int powerlevel = 100;
-public string Name = "health";
+public int powerlevel = 10;
+public Player CurrentPlayer;
+
+public void runpowerup()
+{
+   
+    CurrentPlayer.score += powerlevel;
+
+}
 
 }
