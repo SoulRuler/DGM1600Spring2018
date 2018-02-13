@@ -7,6 +7,7 @@ using UnityEngine;
 public class Player : ScriptableObject {
 
 public int score;
-
+//public string PlayerName;
+public int MP;
 	
 }
