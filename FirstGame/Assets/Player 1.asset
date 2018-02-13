@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Name: Player 1
   m_EditorClassIdentifier: 
   score: 550
+  MP: 8

@@ -46,7 +46,13 @@ public class ArraysAndLoops : MonoBehaviour {
 
 
 
+//You can put score in and var in the for each
 
+// you can make up to 1000 lists if you please
+
+//game objects can also be a part of this
+
+//these can react with other objects and lists
 
 //An array is a box that comtains more boxes (i think that is what you said)
 
