@@ -32,20 +32,6 @@ public class ArraysAndLoops : MonoBehaviour {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //You can put score in and var in the for each
 
 // you can make up to 1000 lists if you please
