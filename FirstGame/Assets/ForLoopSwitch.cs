@@ -8,25 +8,25 @@ public class ForLoopSwitch : MonoBehaviour {
 	public string username;
 
 
-	void Start () {
+	//void Start () {
 
-		Switch (username)
-		{
+		//Switch (username)
+		//{
 
-			case "password":
-					print("come on in");
-				break; 
+			//case "password":
+			//		print("come on in");
+			//	break; 
 
-			case "levelup":
-					print("Wow, you leveled up");
-				break;
+			//case "levelup":
+			//		print("Wow, you leveled up");
+			//	break;
 
-			default:
-					Print("Why don't you tell me what movie you want to see");
-				break;
-		}
+			//default:
+			//		Print("Why don't you tell me what movie you want to see");
+			//	break;
+		//}
 		
-	}
+	//}
 }
 
 //Switch are the alternate to if statements

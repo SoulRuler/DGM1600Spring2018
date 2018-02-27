@@ -4,48 +4,49 @@ using UnityEngine;
 
 public class AllTheLoops : MonoBehaviour {
 
-	int CupsInTheSink = 4;
+	//int CupsInTheSink = 4;
 
-	int NumEnemies = 3;
+	//int NumEnemies = 3;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	While(CupsInTheSink > 0){
-			Debug.Log ("I've washed a cup!");
-			CupsInTheSink--;
-	}
+	//void Start () {
+		
+//	}
+	
+	//While(CupsInTheSink > 0){
+	//		Debug.Log ("I've washed a cup!");
+	//		CupsInTheSink--;
+	//}
 
-	bool ShouldContinue = flase;
+	//bool ShouldContinue = flase;
 
-	do
-	{
+	//do
+	//{
 
-		print ("Hello world");f
+	//	print ("Hello world");f
 
-	}while(ShouldContinue == true);
+	//}while(ShouldContinue == true);
 
-	for(int i = 0; i < NumEnemies; i++){
+	//for(int i = 0; i < NumEnemies; i++)
+	//{
 
-		Debug.Log("Creating enemy number: " + i)
+	//	Debug.Log("Creating enemy number: " + i)
 
-	}
+	//}
 
-	string[] strings = new strings[3];
+	//string[] strings = new strings[3];
 
-	strings[0] = "first string";
-	strings[1] = "second strings";
-	strings[2] = "Thirds string";
+	//strings[0] = "first string";
+	//strings[1] = "second strings";
+	//strings[2] = "Thirds string";
 
-	foreach (string item in strings)
-	{
-		print (item);
-	}
+	//foreach (string item in strings)
+	//{
+	//	print (item);
+	//}
 
-	}
 }
+
 
 //Looping is also interpreted as interating
 

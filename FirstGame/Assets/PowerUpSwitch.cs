@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class PowerUpSwitch : MonoBehaviour {
 
-	public Powerup MyPowerUp;
+	//public Powerup MyPowerUp;
 
-
-	void Start () {
+	//void Start () {
 		
-		Switch (MyPowerUp.name)
-		{
-			case "Ammo":
-				print("You just got more ammo");
-				break;
+		//Switch (MyPowerUp.name)
+		//{
+		//	case "Ammo":
+		//		print("You just got more ammo");
+		//		break;
 		
-		}
-	}
+		//}
+	//}
 }
