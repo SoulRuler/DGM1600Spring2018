@@ -10,7 +10,7 @@ public PowerUp mypowerup;
 	{
 
 		//do work
-		mypowerup.runpowerup();
+		//mypowerup.runpowerup();
 
 	}
 }
