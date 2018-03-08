@@ -14,14 +14,14 @@ public Player CurrentPlayer;
 	public int IncreasePowerLevel()
 	{
 		PowerLevel += PowerLevelIncrease;
-		PowerLevel *= PowerLevelIncrease
+		PowerLevel *= PowerLevelIncrease;
 		return PowerLevel;
 	}
 
 
 public void OnMouseDown()
 {
-	CurrentPlayer.Helth = IncreasePowerLevel();	
+	CurrentPlayer.Health = IncreasePowerLevel();	
 }
 
 }
