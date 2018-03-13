@@ -10,11 +10,11 @@ public class CalculationBehavoior : MonoBehaviour {
 
 	public Text SolutionText;
 
-	public Calculations Calculations;
+	public Calculation Calculation;
 
 	public void RunCalculation()
 	{
-		SolutionText.text = Calculations.Calculate(Input1.text, Input2.text).ToString();
+		SolutionText.text = Calculation.Calculate(Input1.text, Input2.text).ToString();
 	}
 
 }

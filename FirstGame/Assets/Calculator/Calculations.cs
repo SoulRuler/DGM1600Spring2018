@@ -4,16 +4,16 @@ using UnityEngine;
 
 [CreateAssetMenu]
 
-public class Calculations :  ScriptableObject {
+public class Add :  Calculation {
 
 	
 
-public int Calculate(string a, string b)
+public override float Calculate(string a, string b)
 {
 
-	int anum = int.Parse(a);
+	anum = float.Parse(a);
 
-	int bnum = int.Parse(b);
+	bnum = float.Parse(b);
 
 	return anum + bnum;
 
