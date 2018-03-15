@@ -4,9 +4,19 @@ using UnityEngine;
 
 [CreateAssetMenu]
 
-public class Add :  Calculation {
+//public class Add :  Calculation {
 
 	
+
+	//public override string RunCalculation ()
+	//{
+
+		//return (anum + bnum).ToString();
+
+	//}
+
+
+
 
 public override float Calculate(string a, string b)
 {
