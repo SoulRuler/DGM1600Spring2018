@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+//[CreateAssetMenu]
 
 //public class Add :  Calculation {
 
@@ -18,15 +18,15 @@ using UnityEngine;
 
 
 
-public override float Calculate(string a, string b)
-{
+//public override float Calculate(string a, string b)
+//{
 
-	anum = float.Parse(a);
+	//anum = float.Parse(a);
 
-	bnum = float.Parse(b);
+	//bnum = float.Parse(b);
 
-	return anum + bnum;
+	//return anum + bnum;
 
-}
+//}
 
-}
+//}
