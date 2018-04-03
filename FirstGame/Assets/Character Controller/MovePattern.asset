@@ -14,3 +14,6 @@ MonoBehaviour:
   speed: 6
   jumpSpeed: 8
   gravity: 20
+  InputX: {fileID: 11400000, guid: cc296c2ecbdd30949915895450b2e9b5, type: 2}
+  InputY: {fileID: 11400000, guid: ca5cfa9028cad47429fbc6227ad4763f, type: 2}
+  InputZ: {fileID: 11400000, guid: 999a11fcdd17fef4986dfa91585942f0, type: 2}
