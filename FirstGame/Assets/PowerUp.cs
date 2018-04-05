@@ -8,13 +8,11 @@ public class PowerUp : ScriptableObject {
 
 public int PowerLevel;
 
-//public Player CurrentPlayer;
+public MovePattern MovePatternTransfer;
 
-//public void runpowerup()
-//{
-   
-   // CurrentPlayer.score += PowerLevel;
-
-//}
+public MovePattern Transfer ()
+{
+    return MovePatternTransfer;
+}
 
 }

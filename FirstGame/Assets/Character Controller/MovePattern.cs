@@ -19,6 +19,11 @@ public float speed = 6.0F;
 	
 public void Move (CharacterController controller, Transform transform)
 {
+
+           //rotateDiraction.Set(InputRotateX.SetFloat(), InputRotateY.SetFloat()), InputRotateZ.SetFloat());
+//           transform.Rotate(rotateDirection);
+
+
 if (controller.isGrounded) {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
@@ -32,7 +37,7 @@ if (controller.isGrounded) {
             moveDirection *= speed;
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
-            
+            //moveDirection.y = jumpSpeed;
         }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
