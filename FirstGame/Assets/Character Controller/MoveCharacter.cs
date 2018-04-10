@@ -13,7 +13,7 @@ public class MoveCharacter : MonoBehaviour {
 		controller = GetComponent<CharacterController>();
 	}
 
-private void Update()
+void Update()
 {
 	MovePattern.Move(controller, transform);
 }

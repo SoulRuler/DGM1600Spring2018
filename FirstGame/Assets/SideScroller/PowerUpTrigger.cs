@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using UnityEngineCollider;
 
 public class PowerUpTrigger : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public PowerUpTwo PowerUp;
+
+private void OnTriggerEnter(Collider obj)
+{
+	obj.GetComponent<MoveCharacter>().MovePattern = PowerUp.MovePattern;
+	gameObject.SetActive(false);
+}
+
 }
