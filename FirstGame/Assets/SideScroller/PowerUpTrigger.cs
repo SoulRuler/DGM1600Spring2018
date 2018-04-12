@@ -6,6 +6,18 @@ using UnityEngine;
 public class PowerUpTrigger : MonoBehaviour {
 
 public PowerUpTwo PowerUp;
+	public PowerUp PowerUpTransfer;
+	public Image Healthbar;
+	public float PowerLevel = .02;
+
+
+
+	private void OnTriggerEnter (Collider obj)
+	{
+		if(HealthBar.FillAmount += PowerUp)
+		if(HealthBar.FillAmount > 0)
+
+	}
 
 private void OnTriggerEnter(Collider obj)
 {
