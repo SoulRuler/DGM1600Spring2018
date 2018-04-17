@@ -13,9 +13,9 @@ public class MoveMan : MonoBehaviour {
 		controller = GetComponent<CharacterController>();
 	}
 
-private void Update()
-{
-	MovePattern.Move(controller, transform);
-}
+//private void Update()
+//
+	//MovePattern.Move(controller, transform);
+//}
 
 }

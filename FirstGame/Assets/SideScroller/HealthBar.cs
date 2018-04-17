@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 //[CreateAssetMenu]
 
-public class HealthBar : MonoBehaviour {
+//public class HealthBar : MonoBehaviour {
 
 
 
-private image HealthBar;
+//private image HealthBar;
 
-public PowerUp PowerUpTransfer;
+//public PowerUp PowerUpTransfer;
 
-e
+
 
