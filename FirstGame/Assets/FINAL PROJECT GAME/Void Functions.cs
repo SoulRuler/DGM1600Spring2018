@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Addings : MonoBehaviour {
+public class VoidFunctions : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

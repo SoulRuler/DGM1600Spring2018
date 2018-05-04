@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FunctionsWithPeramiterss : MonoBehaviour {
+public class FunctionsWithPeramiters : MonoBehaviour {
 
 	//int MyInt;  SAME
 
@@ -80,20 +80,3 @@ public class FunctionsWithPeramiterss : MonoBehaviour {
 	}
 
 }
-
-
-//You need a ridged body
-
-//You need the trigger to be on
-
-//Go to add comonent to fine rigidbody
-
-//Grivity aslo needs to be off
-
-//We want the parameter to do work
-
-//You pass the value and you do the work
-
-//Adding your own voids is the set up
-
-//And the OnTriggerEnter Collider is the action

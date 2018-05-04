@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿////using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class VoidFunctions : MonoBehaviour {
+//////public class VoidFunction : MonoBehaviour {
 
 //void run; 
 
@@ -10,18 +10,18 @@ public class VoidFunctions : MonoBehaviour {
 	// Use this for initialization
 	//void Start () {
 		
-	//	run(print " I have made a void function");
+		//run(print " I have made a void function");
 
 	//}
 
-}
+//}
 
 
 //Funcations allow you to make a function with instructions
 
 //They also allow you to re use your instructions as long as you want
 
-//You are allowed to make your own voids
+//////You are allowed to make your own voids
 
 //as in void run so you dont have to write it out every single time
 

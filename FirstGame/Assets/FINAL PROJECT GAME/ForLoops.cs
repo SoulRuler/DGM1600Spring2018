@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitBox : MonoBehaviour {
+public class ForLoops : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
