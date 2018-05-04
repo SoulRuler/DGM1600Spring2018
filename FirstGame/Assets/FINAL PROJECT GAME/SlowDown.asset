@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Name: SlowDown
   m_EditorClassIdentifier: 
   PowerLevel: 0
-  MovePatternTransfer: {fileID: 0}
+  MovePatternTransfer: {fileID: 11400000, guid: 0c5aa3b22c6aead40a71021e37306dda,
+    type: 2}
