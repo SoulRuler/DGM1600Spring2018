@@ -19,7 +19,7 @@ public class HealthYea : MonoBehaviour {
 	{
 		
 		PlayerStats stats = player.GetComponent<PlayerStats>();
-		//stats.HealthYea *= Multi;
+		//stats.Health *= Multi;
 
 	}
 
