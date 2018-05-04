@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerPowerUp : MonoBehaviour {
+public class TriggerPowers : MonoBehaviour {
 
 public Player MyPlayer;
 

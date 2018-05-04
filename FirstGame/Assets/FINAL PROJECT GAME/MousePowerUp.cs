@@ -1,16 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MousePowerUp : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+﻿//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
+//
+//public class ClickPowerups : MonoBehaviour {
+//
+//public PowerUp mypowerup;
+//
+//	public void OnMouseDown()
+//	{
+//
+//		do work;
+//
+//		while
+//		{
+//		mypowerup.runpowerup();
+//		}
+//		
+//
+//	}
+//}

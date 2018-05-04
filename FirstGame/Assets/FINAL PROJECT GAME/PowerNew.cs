@@ -18,7 +18,7 @@ public class PowerNew : MonoBehaviour {
 	void Pickup(Collider player)
 	{
 		
-		player.transform.localScale *= Multi;
+		player.transform.localScale *= Multi; 
 
 		
 

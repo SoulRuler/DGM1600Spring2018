@@ -3,12 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FunctionsWithPeramiters : MonoBehaviour {
-
-	//int MyInt;  SAME
-
-	//Collider Other;   SAME
-
-	//public int b; 
 	
 	public int Health = 20;
 

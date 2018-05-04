@@ -1,16 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class VoidFunctions : MonoBehaviour {
+//public class VoidFunctions : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+//void run; 
+
+	//void Start () {
 		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+	//	run(print "I have made a void function");
+
+////////}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ForLoopSwitch : MonoBehaviour {
+public class ForLoopSwitches : MonoBehaviour {
 
 
 	public string username;

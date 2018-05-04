@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class TriggerPower : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public Player MyPlayer;
+
+public PowerUp MyPowerUp;
+
+private void OnTriggerEnter()
+{
+	AddPower(MyPowerUp);
+}
+
+void AddPower(PowerUp powerUp)
+{
+	print(powerUp.PowerLevel);
+	MyPlayer.Health =+ MyPowerUp.PowerLevel;
+}
+
+
+
 }

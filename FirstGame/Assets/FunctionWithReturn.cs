@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FunctionWithReturn : MonoBehaviour {
+public class FunctionAndReturn : MonoBehaviour {
 
 public int Health;
 

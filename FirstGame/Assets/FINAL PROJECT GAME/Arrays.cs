@@ -2,15 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arrays : MonoBehaviour {
+public class ArraysPlusLoops : MonoBehaviour {
 
-	// Use this for initialization
+	public string[] players;
+	public int[] HighScore;
+	public PowerUp[] power;
+
+
 	void Start () {
-		
+
+	foreach (var player in players)
+	{
+
+		print(player);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	foreach (var score in HighScore)
+	{
+		if (score >= 1000)
+		{
+			print(score);	
+		}
+
 	}
+
+}
+
 }

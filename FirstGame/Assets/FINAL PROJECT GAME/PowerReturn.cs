@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class PowerReturn : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+public Player CurrentPlayer;
+
+	public int PowerLevel = 10;
+	public int PowerLevelIncrease = 2;
+
+
+
+	public int IncreasePowerLevel()
+	{
+		PowerLevel += PowerLevelIncrease;
+		PowerLevel *= PowerLevelIncrease;
+		return PowerLevel;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+public void OnMouseDown()
+{
+	CurrentPlayer.Health = IncreasePowerLevel();	
+}
+
 }

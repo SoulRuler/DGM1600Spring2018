@@ -13,9 +13,7 @@ public class ArraysAndLoops : MonoBehaviour {
 
 	foreach (var player in players)
 	{
-		//print(player.PlayerName);
-		//print(player.score);
-		//print(player.MP);
+
 		print(player);
 	}
 
