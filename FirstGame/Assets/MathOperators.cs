@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MathOperators : MonoBehaviour {
+public class MathStuffs : MonoBehaviour {
 
 public int score = 0;
 public int powerup = 10;
